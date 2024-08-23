@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 Desarrollo de Sofrware</title>
+    <style>
+        section{
+            margin: 20px 0 60px 0;
+        }
+        .negrita{
+            font-weight: bold;
+        }
+        .subrayado{
+            text-decoration:underline;
+        }
+        .cursiva{
+            font-style: italic;
+        }
+        table{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <head>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <a href="#estr">Estructura</a>
+            <a href="#multim">Multimedia</a>
+            <a href="#form">Formulario</a>
+        </nav>
+    </head>
+    <main>
+        <section id="estr">
+            <h1>1. Estructura Básica del Documento HTML</h1>
+            <P>Este doc HTML tiene una estructura básica que incluye la declaración DOCTYPE, etiquetas de metadatos y un título</P>
+        </section>
+        <section>
+            <h1>2. Encabezados y Propiedades del Texto</h1>
+            <div>
+                <h2>Texto con propiedades de texto en HTML</h2>
+                <p><b>Texto en negrita</b></p>
+                <p><i>Texto en cursiva</i></p>
+                <p><u>Texto subrayado</u></p>
+            </div>
+            <div class="propiedades_texto">
+                <h2>Texto con la etiqueta style</h2>
+                <p class="negrita">Texto en negrita</p>
+                <p class="cursiva">Texto en cursiva</p>
+                <p class="subrayado">Texto subrayado</p>
+            </div>
+
+        </section>
+        <section>
+            <h1>3. Divisiones y Agrupación de Contenido</h1>
+            <div>
+                <h4>Sección 1</h4>
+                <p>Contenido de la <b>Sección 1</b> agrupado en un div</p>
+            </div>
+            <div>
+                <h4>Sección 2</h4>
+                <p>Contenido de la <b>Sección 2</b> agrupado en un div</p>
+            </div>
+        </section>
+        <section>
+            <h1>4. Enlaces y Listas</h1>
+            <div>
+                <p>Visita nuestro <a href="https://www.google.com/?hl=es">sitio web</a> para más información</p>
+            </div>
+            <div>
+                <h5>Enlaces Internos:</h5>
+                <ul>
+                    <li><a href="#estr">Estructura</a></li>
+                    <li><a href="#multim">Multimedia</a></li>
+                    <li><a href="#form">Formulario</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Lista desordenada</h5>
+                <ul>
+                    <li>Primer item de la lista desordenada</li>
+                    <li>Segundo item de la lista desordenada</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Lista desordenada</h5>
+                <ol>
+                    <li>Primer item de la lista ordenada</li>
+                    <li>Segundo item de la lista ordenada</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="multim">
+            <h1>5. Elementos Multimedia</h1>
+            <div>
+                <h6>Foto</h6>
+                <img src="multimedia/RT_V_12aa5deef3794cc4ad0dfcd88426ef17.jpg" alt="Foto ejemplo">
+            </div>
+            <div>
+                <h6>Video</h6>
+                <video src="multimedia/Desktop 2024.04.15 - 16.24.25.02.mp4" controls></video>
+            </div>
+            <div>
+                <h6>Audio</h6>
+                <audio src="multimedia/y2mate.com - video playa corto mp4.mp3" controls></audio>
+            </div>
+        </section>
+
+        <section>
+            <h1>6. Tablas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h1>7. Formulario</h1>
+            <form id="form">
+                <fieldset>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Escribe tu nombre">
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Escribe tu email">
+
+                    <label>Mensaje</label>
+                    <textarea>Escribe aqui</textarea>
+
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
